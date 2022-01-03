@@ -177,13 +177,16 @@ span {
 @media (max-width:425px)  {
   .select-label {
     font-size: 15px !important;
-  }
+  }  
+  
+
 }
 
 @media (max-width:768px) {
   .card {
     width: 100%;
   }
+
 }
 
 @media (max-width:403px) {
@@ -191,4 +194,15 @@ span {
     position: relative;
     bottom: 0;
   }
+}
+
+@media (max-width:375px) {
+  .wishlist i{
+   display: none;
+   
+    }
+    .wishlist{
+      padding: 4px;
+      
+    }
 }
